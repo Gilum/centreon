@@ -94,6 +94,14 @@ function testPollerDep($instanceId)
     return true;
 }
 
+function checkIllegalChars() {
+    global $pearDB;
+
+    $pearDB->query()
+
+
+}
+
 /**
  * Quickform rule that checks whether or not reserved macro are used
  *
